@@ -53,7 +53,7 @@ from ikomia.dataprocess.workflow import Workflow
 wf = Workflow()
 
 # Add algorithm
-algo = wf.add_task(name="infer_pdf2image", auto_connect=True)
+algo = wf.add_task(name="infer_pdf2image", auto_connect=False)
 
 # Set parameters (all values are strings)
 algo.set_parameters({
@@ -114,7 +114,7 @@ from ikomia.dataprocess.workflow import Workflow
 wf = Workflow()
 
 # Add algorithm
-algo = wf.add_task(name="infer_pdf2image", auto_connect=True)
+algo = wf.add_task(name="infer_pdf2image", auto_connect=False)
 
 # Configure and run
 algo.set_parameters({
