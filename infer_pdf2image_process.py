@@ -194,7 +194,7 @@ class InferPdf2imageFactory(dataprocess.CTaskFactory):
         self.info.short_description = "Convert PDF to image"
         # relative path -> as displayed in Ikomia Studio algorithm tree
         self.info.path = "Plugins/Python/Other"
-        self.info.version = "1.0.0"
+        self.info.version = "1.0.1"
         self.info.icon_path = "images/icon.png"
         self.info.authors = "Belval"
         self.info.article = ""
